@@ -1,5 +1,13 @@
 Requeriments
 
+- php HP 8.2.12 (cli)
+- npm 10.2.4
+- node v20.11.0
+- composer version 2.6.6 
+- DB: mysql (utf8mb4_general_ci)
+
+Implementations
+
 - Laravel 10 https://laravel.com/docs/10.x
 - Laravel Breeze https://laravel.com/docs/10.x/starter-kits#laravel-breeze
 - Laravel Auditing https://laravel-auditing.com/
@@ -52,3 +60,19 @@ test:  http://127.0.0.1:8000/users/export/
     - test: http://127.0.0.1:8000/telescope/requests
 
 ![alt text](image-1.png)
+
+
+***
+
+php --version; 
+PHP 8.2.12 (cli) (built: Oct 24 2023 21:15:15) (ZTS Visual C++ 2019 x64)
+Copyright (c) The PHP Group
+npm --version ; 
+Zend Engine v4.2.12, Copyright (c) Zend Technologies
+node --version;
+10.2.4
+composer --version;
+v20.11.0
+Composer version 2.6.6 2023-12-08 18:32:26
+
+***
