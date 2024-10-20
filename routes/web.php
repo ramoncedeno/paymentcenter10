@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\UsersController; //laravel excel
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,3 +25,5 @@ Route::view('profile', 'profile')
     ->name('profile');
 
 require __DIR__.'/auth.php';
+
+Route::get('users/export/', [UsersController::class, 'export']);
