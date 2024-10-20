@@ -1,7 +1,11 @@
+Requeriments
 
-
+- Laravel 10 https://laravel.com/docs/10.x
+- Laravel Breeze https://laravel.com/docs/10.x/starter-kits#laravel-breeze
+- Laravel Auditing https://laravel-auditing.com/
 - Laravel Excel https://docs.laravel-excel.com/3.1/getting-started/installation.html
 
+***
 Solution Problem Version: 
 
 Ensure PHP is installed: If you're using XAMPP, WAMP, or another PHP environment on Windows, make sure it is correctly installed.
@@ -40,3 +44,11 @@ c) Install Laravel Excel:
  - composer require maatwebsite/excel
 
 Forum: https://laracasts.com/discuss/channels/general-discussion/install-laravel-excel-with-laravel-10-and-php-82
+
+test:  http://127.0.0.1:8000/users/export/
+
+***
+- Laravel telescope https://laravel.com/docs/10.x/telescope
+    - test: http://127.0.0.1:8000/telescope/requests
+
+![alt text](image-1.png)
